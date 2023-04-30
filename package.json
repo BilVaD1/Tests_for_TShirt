@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@shelex/cypress-allure-plugin": "^2.38.3",
+    "cypress": "^12.11.0",
+    "cypress-image-diff-js": "^1.23.0",
+    "cypress-parallel": "^0.13.0"
+  },
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run -b chrome --headed --env allure=true allureLogGherkin=true",
+    "allure:gen": "allure generate --clean",
+    "allure:run": "allure open",
+    "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d './cypress/e2e/test/*.feature' -m false"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3"
+  }
+}
