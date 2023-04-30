@@ -8,7 +8,7 @@
   },
   "scripts": {
     "cy:open": "cypress open",
-    "cy:run": "cypress run -b chrome --headed --env allure=true allureLogGherkin=true",
+    "cy:run": "cypress run -b chrome --env allure=true allureLogGherkin=true",
     "allure:gen": "allure generate --clean",
     "allure:run": "allure open",
     "cy:parallel" : "cypress-parallel -s cy:run -t 2 -d './cypress/e2e/test/*.feature' -m false"

@@ -36,6 +36,6 @@ module.exports = defineConfig({
     },
     
     specPattern: "./cypress/e2e/test/*.feature",
-    baseUrl: "https://t-shirtforcourse.netlify.app"
+    baseUrl: "http://localhost:5173/"
   },
 });
