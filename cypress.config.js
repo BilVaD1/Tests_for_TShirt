@@ -36,6 +36,7 @@ module.exports = defineConfig({
     },
     
     specPattern: "./cypress/e2e/test/*.feature",
-    baseUrl: "http://localhost:5173/"
+    baseUrl: "http://localhost:5173",
+    video: false
   },
 });
