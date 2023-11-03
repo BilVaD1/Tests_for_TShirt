@@ -1,0 +1,13 @@
+{
+  "total": 0,
+  "totalPassed": 0,
+  "totalFailed": 0,
+  "totalSuites": 0,
+  "suites": [],
+  "startedAt": "2023-11-03T09:14:45.845Z",
+  "endedAt": "2023-11-03T09:14:48.291Z",
+  "duration": 2446,
+  "browserName": "chrome",
+  "browserVersion": "119.0.6045.105",
+  "cypressVersion": "12.17.4"
+}

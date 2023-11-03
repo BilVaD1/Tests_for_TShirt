@@ -4,7 +4,7 @@
   "passes": 1,
   "pending": 0,
   "failures": 0,
-  "start": "2023-04-30T08:52:02.347Z",
-  "duration": 8749,
-  "file": "cypress\\e2e\\test\\homepage.feature"
+  "start": "2023-11-03T09:25:06.323Z",
+  "duration": 17515,
+  "file": "cypress/e2e/test/homepage.feature"
 }

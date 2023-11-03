@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "totalPassed": 0,
+  "totalFailed": 1,
+  "totalSuites": 1,
+  "suites": [
+    {
+      "name": "custompage.feature",
+      "path": "cypress/e2e/test/custompage.feature",
+      "tests": [
+        {
+          "status": "fail",
+          "name": "custompage.feature-Red-Tshirt",
+          "percentage": 0.8388874157800715,
+          "failureThreshold": 0,
+          "specPath": "cypress/e2e/test/custompage.feature",
+          "specFilename": "custompage.feature",
+          "baselinePath": "cypress-visual-screenshots/baseline/custompage.feature-Red-Tshirt.png",
+          "diffPath": "cypress-visual-screenshots/diff/custompage.feature-Red-Tshirt.png",
+          "comparisonPath": "cypress-visual-screenshots/comparison/custompage.feature-Red-Tshirt.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2023-11-03T09:25:08.750Z",
+  "endedAt": "2023-11-03T09:25:45.701Z",
+  "duration": 36951,
+  "browserName": "chrome",
+  "browserVersion": "119.0.6045.105",
+  "cypressVersion": "12.17.4"
+}
